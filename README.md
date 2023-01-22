@@ -17,9 +17,9 @@ this includes:
 Unlike the JavaScript library (i.e. fulfilling the library's license requirements by stating what was changed), this port:
 - is written in PureScript
 - provides three ways to look up a signal whereas the JS library only provides two:
-    - `byNumber` - same as JS library: lookup a signal by its number
-    - `byString` - same as JS library: lookup a signal via a dynamic string
-    - `byName` - different from S library: lookup a signal via a static string, guaranteeing the value actually exists
+    - `byNumber` - same as the JS library: lookup a signal by its number
+    - `byString` - same as the JS library: lookup a signal via a dynamic string
+    - `byName` - different from the JS library: lookup a signal via a static string, guaranteeing the value actually exists
 - fully enumerates the possible values of the `SIGRT1`-`SIGRT31` so that they can be referenced via the `byName` field.
 
 # Example
